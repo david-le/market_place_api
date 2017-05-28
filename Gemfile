@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -34,7 +34,6 @@ end
 
 group :development do
   gem 'sqlite3'
-  gem 'rspec-rails', '~> 3.5'
 end
 
 group :test do
@@ -42,6 +41,8 @@ group :test do
   gem "factory_girl_rails"
   gem 'ffaker'
 end
+
+gem "devise"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
